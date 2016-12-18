@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="24"
+    density="hdpi"
+    format="7"
+    timestamp="3727013840557"
+    token="8583890720174411009"
+    verifier="STATIC_INITIALIZER_CHANGE" >
+
+    <task
+        name="javac"
+        duration="58" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="6" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/home/zhchma/AndroidProject/android-WearSpeakerSample-master/wear/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+        type="DEX" />
+
+    <build timestamp="3329000977781" >
+        <artifact
+            location="/home/zhchma/AndroidProject/android-WearSpeakerSample-master/wear/build/outputs/apk/wear-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="3727013840557"
+        verifier="STATIC_INITIALIZER_CHANGE" >
+        <artifact
+            location="/home/zhchma/AndroidProject/android-WearSpeakerSample-master/wear/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
